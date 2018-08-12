@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 
 Base = declarative_base()
 
-class Donate(Base):
+class donate(Base):
 	__tablename__ = 'needer'
 	id = Column(Integer, primary_key=True)
 	name = Column(String)
@@ -17,19 +17,19 @@ class Donate(Base):
 	pic=Column(String)
 
 
-	def __repr__(self):
-		return ("Donator id: {}\n"
-				"Donator name: {} \n"
-				"Donator story: {} \n "
-				"Donator email: {} \n "
-				"Donator type: {} \n "
-				"the donate: {} \n "
-				"Donator phone number: {} \n ").format(
-					self.id,
-					self.name,
-					self.story,
-					self.email,
-					self.needer_type,
-					self.needs,
-					self.phone_num)
+def __repr__(self):
+	return ("Donator id: {}\n"
+			"Donator name: {} \n"
+			"Donator story: {} \n "
+			"Donator email: {} \n "
+			"Donator type: {} \n "
+			"the donate: {} \n "
+			"Donator phone number: {} \n ").format(
+				self.id,
+				self.name,
+				self.story,
+				self.email,
+				self.needer_type,
+				self.needs,
+				self.phone_num)
 
