@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Add an organization</title>
+	<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}"> -->
+</head>
+<body>
+    <h1>Add a organization or a private place to to</h1>
+    <form method="post">
+        <input type="text" name="organization_name" placeholder="Organization Name">
+        <br>
+
+        <p>Contact Info:</p>
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="adress" placeholder="Adress">	
+        <input type="text" Name="phone_number" placeholder="Phone number">
+        <br>
+        <input type="radio" name="animal" value="cats">cats
+            <input type="radio" name="animal" value="dogs">dogs
+
+        <input type="checkbox" name="donations" placeholder="Email">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
