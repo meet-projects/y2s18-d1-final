@@ -1,0 +1,26 @@
+body{
+	background-color: #cccfff;
+}
+
+.head{
+	position: absolute;
+	color: white;
+	top: 50px;
+	left: 50px;
+}
+
+.button{
+	position: fixed;
+	color: red;
+	left: 250px;
+	top:60px;
+	width:15px;
+	height:20px;
+}
+
+.topic{
+	position: absolute;
+	color: white;
+	left: 50px;
+	top:90px ;
+}
