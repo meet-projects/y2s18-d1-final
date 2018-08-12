@@ -5,3 +5,82 @@
 }
 
 /* Put your styles BELOW this line */
+body {
+    margin: 0;
+}
+
+.header {
+    font-size: 36pt;
+    font-family: sans-serif;
+    height: 60px;
+    background-color: solid grey;
+    padding:1px 2px 3px 4px;}
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    height: 500px;
+}
+.navbar {
+	font-size: 20px;
+	background-color: 7c7a7a;
+	height:100px;
+
+}
+
+
+/*.sidebar {
+    width: 180px;
+    background: #ff6677;
+    position: absolute;
+    top: 90;
+    height: 100%;
+    padding:15px 5px;
+
+}*/
+
+.main-content {
+    /*background: #ffffcc;*/
+    position: absolute;
+    top: 90;
+    left: 200px;
+    border:5px solid blue;
+    margin:5px;
+    padding:15px 10px;
+}
+
+
+.containermoney{
+	position: absolute:;
+	top: 150px;
+	left: 200px;
+	border: 5px solid blue;
+	margin:5px;
+    padding:15px 10px;
+
+}
+
+.containerfood{
+	position: absolute:;
+	top: 150px;
+	left: 200px;
+	border: 5px solid blue;
+	margin:5px;
+    padding:15px 10px;
+
+
+}
+.containeressentials{
+	position: absolute:;
+	top: 150px;
+	left: 200px;
+	border: 5px solid blue;
+	margin:5px;
+    padding:15px 10px;
+
+
+
+}
+
+
