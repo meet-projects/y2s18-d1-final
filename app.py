@@ -15,6 +15,8 @@ def home():
 @app.route('/money')
 def money():
     return render_template('money.html')
+    
+    	pass
 # Running the Flask app
 @app.route('/food')
 def food():

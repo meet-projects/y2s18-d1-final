@@ -1,13 +1,8 @@
-* {
-    /* Removes extra spacing from all elements on the page */
-    padding: 0;
+body{
+	background-color: blue;
     margin: 0;
 }
 
-/* Put your styles BELOW this line */
-body {
-    margin: 0;
-}
 
 .header {
     font-size: 36pt;
@@ -84,3 +79,25 @@ body {
 }
 
 
+.head{
+	position: absolute;
+	color: white;
+	top: 50px;
+	left: 50px;
+}
+
+button{
+	position: fixed;
+	color: red;
+	left: 1100px;
+	top:60px;
+	width:100px;
+	height:50px;
+}
+
+.topic{
+	position: absolute;
+	color: white;
+	left: 50px;
+	top:150px ;
+}
