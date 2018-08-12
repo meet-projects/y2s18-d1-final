@@ -10,8 +10,20 @@ app = Flask(__name__)
 # App routing code here
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('homepage.html')
 
+@app.route('/money')
+def money():
+    return render_template('money.html')
 # Running the Flask app
+@app.route('/food')
+def food():
+    return render_template('food.html')
+@app.route('/about_us')
+def aboutus():
+    return render_template('about_us.html')
+@app.route('/contact_us')
+def contact():
+    return render_template('contact_us.html')
 if __name__ == "__main__":
     app.run(debug=True)
