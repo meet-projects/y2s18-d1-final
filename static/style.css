@@ -81,7 +81,7 @@ button{
 	top: 100px;
 	left: 50px;
 	width: 100%;
-	border-style: solids;
+	border-style: solid;
 }
 
 .us{
@@ -90,7 +90,7 @@ button{
 	top: 50px;
 	left: 50px;
 	width: 100%;
-	border-style: solids;
+	border-style: solid;
 }
 .emails{
 	position: absolute;
@@ -98,16 +98,16 @@ button{
 	top: 50px;
 	left: 50px;
 	width: 100%;
-	border-style: solids;
-=======
+	border-style: solid;
+}
 .unrwa{
 	position: absolute;
 	color: white;
 	top: 270px;
-	left: 50px;
+	left: 90px;
 	border-style: solid;
 	width: 100%;
 
->>>>>>> d698bf86f77a836fc6d41ea234bbab84d835b0a8
+
 
 }
