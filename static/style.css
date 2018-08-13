@@ -168,7 +168,7 @@ button{
 .names{
 	position: absolute;
 	color: black;
-	top: 275px;
+	top: 150px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -176,7 +176,7 @@ button{
 .emails{
 	position: absolute;
 	color: black;
-	top: 150px;
+	top: 275px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -205,4 +205,10 @@ button{
 	border-style: solid;
 	width: 100%;
 }
+.about-h1{
+	padding-left: 35%;
 
+}
+.contact-h1{
+	padding-left: 35%;
+}
