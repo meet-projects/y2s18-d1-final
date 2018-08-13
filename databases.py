@@ -15,9 +15,9 @@ session = DBSession()
 # Your database functions are located under here (querying, adding items, etc.)
 
 # Example of adding a student:
-def add_donate(name,story,email, needer_type, needs, phone_num, adress, link, pic):
+def add_donate(name,story,email, needer_type, needs, phone_num, address, link, pic):
     print("Added a donate!")
-    don = Donate(name=name,story=story, email=email, needer_type=needer_type, needs=needs,phone_num=phone_num,adress=adress,link=link, pic=pic)
+    don = Donate(name=name,story=story, email=email, needer_type=needer_type, needs=needs,phone_num=phone_num,address=address,link=link, pic=pic)
     session.add(don)
     session.commit()
 
