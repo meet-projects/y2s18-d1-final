@@ -1,27 +1,50 @@
 body{
-	background-color: blue;
+	background-color: white;
     margin: 0;
 }
 
 
-.header {
-    font-size: 36pt;
-    font-family: sans-serif;
+/*.topbar {
+    
+    
     height: 60px;
     background-color: solid grey;
-    padding:1px 2px 3px 4px;}
-}
+    
+}*/
 
-.container {
-    position: relative;
-    background-color: white;
-    height: 500px;
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
 }
-.navbar {
+/*.navbar {
 	font-size: 20px;
 	background-color: 7c7a7a;
 	height:100px;
+    text-align: center;
+    padding: 14px 16px;
 
+}*/
+
+.topnav {
+    
+    background-color: #333;
+}
+
+
+.topnav a {
+    float: left;
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 
@@ -35,9 +58,32 @@ body{
 
 }*/
 
-.main-content {
+.containermoney {
+    float: left;
+    border:blue;
+}
+
+/* Left and right column */
+.containeressentials {
+    width: 25%;
+    border:blue;
+}
+
+/* Middle column */
+.containerfood {
+    width: 50%;
+    border:blue;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+/*.main-content {
     /*background: #ffffcc;*/
-    position: absolute;
+/*    position: absolute;
     top: 90;
     left: 200px;
     border:5px solid blue;
@@ -100,4 +146,4 @@ button{
 	color: white;
 	left: 50px;
 	top:150px ;
-}
+}*/
