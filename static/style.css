@@ -185,7 +185,7 @@ button{
 	position: absolute;
 	color: white;
 	top: 270px;
-	left: 90px;
+	left: 50px;
 	border-style: solid;
 	width: 100%;
 }
@@ -194,7 +194,7 @@ button{
 	color: black;
 	top: 50px;
 	left: 50px;
-	width: 100%;
+	width: 80%;
 	border-style: solid;
 }
 
