@@ -47,7 +47,6 @@ def add():
     if request.method == 'GET':
            return render_template('add.html')
     else:
-
         print("hi2")
         name = request.form['name']
         address = request.form['address']
@@ -60,25 +59,13 @@ def add():
         link=request.form['link']
         pic=request.form['pic']
 
-        add_donate(name, story, email, needer_type, needs, phone_num, address, link)
+        add_donate(name, story, email, needer_type, needs, phone_num, address, link, pic)
         print("hi 4")
         return render_template('check.html',
                n=name,
                s=story,
-               e=email, nt=needer_type, ne=needs, p=phone_num, a=address, l=link)
+               e=email, nt=needer_type, ne=needs, p=phone_num, a=address, l=link, pic=pic)
  
-
-       name = request.form['firstname']
-       address = request.form['address']
-       story=request.form['backround']
-       email=request.form['email']
-       needer_type=request.form['needer_type']
-       needs=request.form['donations']
-       phone_num=request.form['phone_number']
-       link=request.form['link']
-
-
-       save_to_database(name, animal) 
 
 if __name__ == "__main__":
     app.run(debug=True)
