@@ -144,9 +144,62 @@ button{
 
 }
 
+.baby{
+    position: absolute;
+    color: white;
+    top: 400px;
+    left: 50px;
+    border-style: solid;
+    width: 80%;
+
+}
+
 
 
 .cont{
+<<<<<<< HEAD
+	position: absolute;
+	color: black;
+	display: inline-block
+	top: 50px;
+	left: 50px;
+	width: 90%;
+	border-style: solid;
+}
+
+.names{
+	position: absolute;
+	color: black;
+	top: 200px;
+	left: 50px;
+	width: 90%;
+	border-style: solid;
+}
+.emails{
+	position: absolute;
+	color: black;
+	top: 350px;
+	left: 50px;
+	width: 90%;
+	border-style: solid;
+}
+.unrwa{
+	position: absolute;
+	color: white;
+	top: 270px;
+	left: 90px;
+	border-style: solid;
+	width: 100%;
+}
+.info{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 100%;
+	border-style: solid;
+}
+=======
     position: absolute;
     color: black;
     top: 100px;
@@ -171,3 +224,4 @@ button{
     width: 100%;
     border-style: solid;
 }
+>>>>>>> effc4a7701b97fffeaa36504d7454d2fd861c3e3
