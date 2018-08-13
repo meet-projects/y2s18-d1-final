@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:blue;
 }
 
 button{
@@ -168,7 +168,7 @@ button{
 .names{
 	position: absolute;
 	color: black;
-	top: 275px;
+	top: 150px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -176,7 +176,7 @@ button{
 .emails{
 	position: absolute;
 	color: black;
-	top: 150px;
+	top: 275px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -236,5 +236,24 @@ button{
 	border-style: solid;
 	width: 100%;
 }
+.about-h1{
+	padding-left: 35%;
 
+<<<<<<< HEAD
+.send_message{
+    position: fixed;
+    color: black;
+    top: 403px;
+    left: 50px;
+
+}
+=======
+<<<<<<< HEAD
+}
+.contact-h1{
+	padding-left: 35%;
+}
+=======
 >>>>>>> 3a75e80c0df2587185afefbd4b52d3e4f0094b18
+>>>>>>> 8328fa189737ef7f204b41030b96e9dc95a6eb26
+>>>>>>> 511d73e6ae81e8afd9d241508bcdad50f6949335
