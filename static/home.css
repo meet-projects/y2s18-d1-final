@@ -41,16 +41,21 @@
 }
 
 
-.side {
+.moneyc {
     flex: 30%; 
-    background-color: #f1f1f1; 
+    background-color: black; 
     padding: 20px; 
 }
 
 
-.main { 
+.foodc { 
     flex: 70%; 
-    background-color: white; 
+    background-color: black; 
+    padding: 20px; 
+}
+.essentialsc { 
+    flex: 70%; 
+    background-color: black; 
     padding: 20px; 
 }
 
