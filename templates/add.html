@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <title>Add an organization</title>
+	<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}"> -->
+</head>
+<body>
+    <h1>Add a organization or a private place to donate to:</h1>
+    <form method="post">
+        <input type="text" name="organization_name" placeholder="Organization/person Name">
+        <br>
+        <input type="text" Name="backround" placeholder="Write a little bit about the cause or about the organization and about yourself">
+        <input type="radio" Name="needer_type" value="private person">private person
+        <input type="radio" Name="needer_type" value="non-profit organization">non-profit organization
+        <input type="radio" Name="needer_type" value="company">company
+
+        <p>Contact Info:</p>
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="address" placeholder="Address">
+        <br>	
+        <input type="text" Name="phone_number" placeholder="Phone number">
+        <input type="text" Name="link" placeholder="optional:link to website">
+
+        <br>
+       
+        <p>What donations do you need?</p>
+        <input type="checkbox" name="donations" value="money">money
+        <input type="checkbox" name="donations" value="essentials">essentials
+        <input type="checkbox" name="donations" value="food">food
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

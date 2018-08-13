@@ -1,6 +1,8 @@
 body{
+
 	background-color: white;
     margin: 0;
+
 }
 
 
@@ -42,7 +44,7 @@ body{
 	top: 50px;
 	left: 50px;
 	border-style: solid;
-	}
+
 
 
 .topnav :hover {
@@ -95,8 +97,13 @@ button{
 	left: 1100px;
 	top:60px;
 	width:100px;
+<<<<<<< HEAD
 	height:50px;
 >>>>>>> 8f84b488bc10c184662a363ccf7a39391e339c61
+=======
+	height:60px;
+
+>>>>>>> f27cf50dade49c4dfa10bf394cfc1797869bb1e1
 }
 
 .topic{
@@ -104,7 +111,10 @@ button{
 	color: white;
 	left: 50px;
 	top:180px ;
-	border-style: solid red;
+	border-style: solid;
+	width: 100%;
+
+
 }
 
 .head1{
@@ -112,7 +122,8 @@ button{
 	color: white;
 	top: 50px;
 	left: 50px;
-	border-style: solid red;
+	border-style: solid;
+	width: 100%;
 
 }
 
@@ -121,7 +132,8 @@ button{
 	color: white;
 	left: 50px;
 	top:180px ;
-	border-style: solid red;
+	border-style: solid;
+	width: 100%;
 
 }
 
@@ -130,7 +142,8 @@ button{
 	color: white;
 	left: 50px;
 	top:180px ;
-	border-style: solid red;
+	border-style: solid;
+	width: 100%;
 
 }
 
@@ -140,5 +153,44 @@ button{
 	top: 50px;
 	left: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	top:150px ;
 }*/
+
+
+
+.cont{
+	position: absolute;
+	color: black;
+	top: 100px;
+	left: 50px;
+	width: 100%;
+	border-style: solids;
+}
+
+.us{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 100%;
+	border-style: solids;
+}
+.emails{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 100%;
+	border-style: solids;
+
+.unrwa{
+	position: absolute;
+	color: white;
+	top: 270px;
+	left: 50px;
+	border-style: solid;
+	width: 100%;
+
+
+}
