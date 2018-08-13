@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:blue;
 }
 
 button{
@@ -144,6 +144,7 @@ button{
 
 }
 
+
 .baby{
     position: absolute;
     color: white;
@@ -168,7 +169,7 @@ button{
 .names{
 	position: absolute;
 	color: black;
-	top: 275px;
+	top: 150px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -176,23 +177,28 @@ button{
 .emails{
 	position: absolute;
 	color: black;
-	top: 150px;
+	top: 275px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
 }
 .info{
 	position: absolute;
-<<<<<<< HEAD
 	color: white;
 	top: 270px;
 	left: 50px;
+<<<<<<< HEAD
+
 =======
+>>>>>>> 5cc749aaca3254e7babdec6d1b509704f4f24cd3
 	color: black;
 	top: 150px;
 	left: 50px;
 	width: 90%;
->>>>>>> 3a75e80c0df2587185afefbd4b52d3e4f0094b18
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5cc749aaca3254e7babdec6d1b509704f4f24cd3
 	border-style: solid;
 }
 .about{
@@ -200,19 +206,19 @@ button{
 	color: black;
 	top: 50px;
 	left: 50px;
-<<<<<<< HEAD
-	width: 80%;
-=======
 	width: 90%;
 	border-style: solid;
 }
 <<<<<<< HEAD
 
+=======
+>>>>>>> 5cc749aaca3254e7babdec6d1b509704f4f24cd3
+
 
 .us{
     position: absolute;
     color: black;
-    top: 50px;
+    top: 150px;
     left: 50px;
     width: 100%;
     border-style: solid;
@@ -220,21 +226,26 @@ button{
 .emails{
     position: absolute;
     color: black;
-    top: 50px;
+    top: 300px;
     left: 50px;
     width: 100%;
     border-style: solid;
 }
 
-=======
-.unrwa{
-	position: absolute;
-	color: white;
-	top: 270px;
-	left: 90px;
->>>>>>> 3a75e80c0df2587185afefbd4b52d3e4f0094b18
-	border-style: solid;
-	width: 100%;
+
+
+.about-h1{
+	padding-left: 35%;
+
+}
+.send_message{
+    position: fixed;
+    color: black;
+    top: 403px;
+    left: 50px;
+
+}
+.contact-h1{
+	padding-left: 35%;
 }
 
->>>>>>> 3a75e80c0df2587185afefbd4b52d3e4f0094b18
