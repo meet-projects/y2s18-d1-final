@@ -5,6 +5,12 @@
 	<title>Money</title>
 	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}"">
 
+	       <!-- Required tags to make the website responsive-->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Add Bootstrap CSS to the page -->
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
 </head>
 <body>
 	<div class="head">
@@ -22,6 +28,9 @@
 		<p>  is a relief and human development agency which supports more than 5 million registered Palestinian refugees, and their descendants, who fled or were expelled from their homes during the 1948 Palestine war as well as those who fled or were expelled during and following the 1967 Six Day war. Originally intended to provide jobs on public works projects and direct relief, today UNRWA provides education, health care, and social services to the population it supports. Aid is provided in five areas of operation: Jordan, Lebanon, Syria, the Gaza Strip and the West Bank, including East Jerusalem; aid for Palestinian refugees outside these five areas is provided by UNHCR.</p>
 		
 	</div>
-
+	       <!-- Add JQuery and Bootstrap JS to the page -->
+       <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
+       <script src="{{ url_for('static', filename='jquery.js') }}"></script>
+       <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>
 </body>
 </html>

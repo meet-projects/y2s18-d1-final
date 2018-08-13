@@ -5,6 +5,12 @@
 	<title>Money</title>
 	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}"">
 
+	       <!-- Required tags to make the website responsive-->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Add Bootstrap CSS to the page -->
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
 </head>
 <body>
 	<div class="head1">
@@ -27,6 +33,10 @@
 		<p>Baby2Baby provides low-income children ages 0-12 years with diapers, clothing and all the basic necessities that every child deserves.
 </p>
 	</div>
+	       <!-- Add JQuery and Bootstrap JS to the page -->
+       <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
+       <script src="{{ url_for('static', filename='jquery.js') }}"></script>
+       <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>
 </body>
 </html>
 
