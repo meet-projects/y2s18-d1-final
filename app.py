@@ -16,7 +16,6 @@ def home():
 def money():
     return render_template('money.html')
     
-    	pass
 # Running the Flask app
 @app.route('/food')
 def food():
@@ -24,8 +23,14 @@ def food():
 @app.route('/about_us')
 def aboutus():
     return render_template('about_us.html')
+@app.route('/essentials')
+def essentials():
+    return render_template('essentials.html')    
 @app.route('/contact_us')
 def contact():
     return render_template('contact_us.html')
+@app.route('/add', methods=['GET', 'POST'])
+def add():
+    return render_template('add.html')
 if __name__ == "__main__":
     app.run(debug=True)
