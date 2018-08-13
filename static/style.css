@@ -199,14 +199,7 @@ button{
 	width: 100%;
 	border-style: solid;
 }
-=======
-    position: absolute;
-    color: black;
-    top: 100px;
-    left: 50px;
-    width: 100%;
-    border-style: solid;
-}
+
 
 .us{
     position: absolute;
@@ -224,4 +217,4 @@ button{
     width: 100%;
     border-style: solid;
 }
->>>>>>> effc4a7701b97fffeaa36504d7454d2fd861c3e3
+
