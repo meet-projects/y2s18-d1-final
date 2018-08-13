@@ -144,6 +144,7 @@ button{
 
 }
 
+
 .baby{
     position: absolute;
     color: white;
@@ -205,7 +206,7 @@ button{
 .us{
     position: absolute;
     color: black;
-    top: 50px;
+    top: 150px;
     left: 50px;
     width: 100%;
     border-style: solid;
@@ -213,22 +214,14 @@ button{
 .emails{
     position: absolute;
     color: black;
-    top: 50px;
+    top: 300px;
     left: 50px;
     width: 100%;
     border-style: solid;
 }
 
 
-.unrwa{
-	position: absolute;
-	color: white;
-	top: 270px;
-	left: 90px;
 
-	border-style: solid;
-	width: 100%;
-}
 .about-h1{
 	padding-left: 35%;
 
