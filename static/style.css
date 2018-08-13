@@ -18,8 +18,8 @@ button{
 	color: red;
 	left: 1100px;
 	top:60px;
-	width:150px;
-	height:150px;
+	width:100px;
+	height:60px;
 
 }
 
@@ -69,7 +69,18 @@ button{
 	color: white;
 	top: 50px;
 	left: 50px;
-	border-style: solids;
+	border-style: solid;
+	width: 80%;
+
+}
+
+.unrwa{
+	position: absolute;
+	color: white;
+	top: 270px;
+	left: 50px;
+	border-style: solid;
 	width: 100%;
+
 
 }
