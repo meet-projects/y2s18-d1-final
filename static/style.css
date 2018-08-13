@@ -73,3 +73,30 @@ button{
 	width: 100%;
 
 }
+
+.cont{
+	position: absolute;
+	color: black;
+	top: 100px;
+	left: 50px;
+	width: 100%;
+	border-style: solids;
+}
+
+.us{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 100%;
+	border-style: solids;
+}
+.emails{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 100%;
+	border-style: solids;
+
+}
