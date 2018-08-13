@@ -157,10 +157,8 @@ button{
 
 
 .cont{
-<<<<<<< HEAD
 	position: absolute;
 	color: black;
-	display: inline-block
 	top: 50px;
 	left: 50px;
 	width: 90%;
@@ -170,7 +168,7 @@ button{
 .names{
 	position: absolute;
 	color: black;
-	top: 200px;
+	top: 275px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -178,7 +176,7 @@ button{
 .emails{
 	position: absolute;
 	color: black;
-	top: 350px;
+	top: 150px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -216,12 +214,3 @@ button{
     width: 100%;
     border-style: solid;
 }
-.emails{
-    position: absolute;
-    color: black;
-    top: 50px;
-    left: 50px;
-    width: 100%;
-    border-style: solid;
-}
->>>>>>> effc4a7701b97fffeaa36504d7454d2fd861c3e3
