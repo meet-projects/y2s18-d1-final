@@ -21,11 +21,11 @@
 	<div class="topic2">
 		<h2>donate these organizations:</h2>
 	</div>
-    <ul>
+    <ol>
       	{% for x in food %}
       	<li> {{x}} </li>
       	{% endfor %}
-    </ul>
+    </ol>
        <!-- Add JQuery and Bootstrap JS to the page -->
        <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
        <script src="{{ url_for('static', filename='jquery.js') }}"></script>
