@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, sessionmaker
 from sqlalchemy import create_engine
@@ -14,6 +14,8 @@ class Donate(Base):
 	needer_type=Column(String)
 	needs = Column(String)
 	phone_num=Column(Integer)
+	address=Column(String)
+	link=Column(String)
 	pic=Column(String)
 
 
@@ -24,12 +26,16 @@ class Donate(Base):
 				"Donator email: {} \n "
 				"Donator type: {} \n "
 				"the donate: {} \n "
-				"Donator phone number: {} \n ").format(
+				"Donator phone number: {} \n "
+				"Donator address: {} \n "
+				"Donator link: {} \n ").format(
 					self.id,
 					self.name,
 					self.story,
 					self.email,
 					self.needer_type,
 					self.needs,
-					self.phone_num)
+					self.phone_num,
+					self.address,
+					self.link)
 
