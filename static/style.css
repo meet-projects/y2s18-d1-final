@@ -181,6 +181,22 @@ button{
 	width: 90%;
 	border-style: solid;
 }
+.info{
+	position: absolute;
+	color: black;
+	top: 150px;
+	left: 50px;
+	width: 90%;
+	border-style: solid;
+}
+.about{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 90%;
+	border-style: solid;
+}
 .unrwa{
 	position: absolute;
 	color: white;
@@ -188,13 +204,5 @@ button{
 	left: 90px;
 	border-style: solid;
 	width: 100%;
-}
-.info{
-	position: absolute;
-	color: black;
-	top: 50px;
-	left: 50px;
-	width: 100%;
-	border-style: solid;
 }
 
