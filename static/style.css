@@ -144,6 +144,16 @@ button{
 
 }
 
+.baby{
+    position: absolute;
+    color: white;
+    top: 400px;
+    left: 50px;
+    border-style: solid;
+    width: 80%;
+
+}
+
 
 
 .cont{
