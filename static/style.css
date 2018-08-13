@@ -13,8 +13,10 @@ body{
 }*/
 
 .header {
-    background-color: #F1F1F1;
-    text-align: center;
+    position:fixed;
+    background-color: white;
+    top:25px;
+    left:25px;
     padding: 20px;
 }
 /*.navbar {
@@ -27,22 +29,12 @@ body{
 }*/
 
 .topnav {
-    
+    position:fixed;
     background-color: #333;
 }
 
 
-.topnav a {
-    float: left;
-    
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    
-}
 
-	background-color: blue;
-}
 
 .head{
 	position: absolute;
@@ -53,9 +45,9 @@ body{
 	}
 
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.topnav :hover {
+    background-color: black;
+    
 }
 
 
@@ -70,28 +62,24 @@ body{
 }*/
 
 .containermoney {
-    float: left;
-    border:blue;
+    position: absolute;
+    border: 1px solid blue;
 }
 
 /* Left and right column */
 .containeressentials {
-    width: 25%;
-    border:blue;
+    position: absolute;
+    border:1px solid blue;
 }
 
 /* Middle column */
 .containerfood {
-    width: 50%;
-    border:blue;
+    position: absolute;
+    border: 1px solid blue;
 }
 
 
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
+
 /*.main-content {
     /*background: #ffffcc;*/
 /*    position: absolute;
