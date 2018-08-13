@@ -42,7 +42,8 @@ def add():
     
     if request.method == 'GET':
            return render_template('add.html')
-   else:
+    else:
+   
        name = request.form['firstname']
        address = request.form['address']
 	   story=request.form['backround']
