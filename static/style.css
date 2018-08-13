@@ -183,10 +183,16 @@ button{
 }
 .info{
 	position: absolute;
+<<<<<<< HEAD
+	color: white;
+	top: 270px;
+	left: 50px;
+=======
 	color: black;
 	top: 150px;
 	left: 50px;
 	width: 90%;
+>>>>>>> 3a75e80c0df2587185afefbd4b52d3e4f0094b18
 	border-style: solid;
 }
 .about{
@@ -194,6 +200,9 @@ button{
 	color: black;
 	top: 50px;
 	left: 50px;
+<<<<<<< HEAD
+	width: 80%;
+=======
 	width: 90%;
 	border-style: solid;
 }
@@ -223,6 +232,7 @@ button{
 	color: white;
 	top: 270px;
 	left: 90px;
+>>>>>>> 3a75e80c0df2587185afefbd4b52d3e4f0094b18
 	border-style: solid;
 	width: 100%;
 }
