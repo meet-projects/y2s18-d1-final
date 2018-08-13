@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:blue;
 }
 
 button{
@@ -216,3 +216,10 @@ button{
 	width: 100%;
 }
 
+.send_message{
+    position: fixed;
+    color: black;
+    top: 403px;
+    left: 50px;
+
+}
