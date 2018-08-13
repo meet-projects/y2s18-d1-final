@@ -78,26 +78,27 @@ button{
 .cont{
 	position: absolute;
 	color: black;
-	top: 100px;
+	display: inline-block
+	top: 50px;
 	left: 50px;
-	width: 100%;
+	width: 90%;
 	border-style: solid;
 }
 
-.us{
+.names{
 	position: absolute;
 	color: black;
-	top: 50px;
+	top: 200px;
 	left: 50px;
-	width: 100%;
+	width: 90%;
 	border-style: solid;
 }
 .emails{
 	position: absolute;
 	color: black;
-	top: 50px;
+	top: 350px;
 	left: 50px;
-	width: 100%;
+	width: 90%;
 	border-style: solid;
 }
 .unrwa{
@@ -107,7 +108,12 @@ button{
 	left: 90px;
 	border-style: solid;
 	width: 100%;
-
-
-
+}
+.info{
+	position: absolute;
+	color: black;
+	top: 50px;
+	left: 50px;
+	width: 100%;
+	border-style: solid;
 }
