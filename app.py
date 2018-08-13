@@ -16,6 +16,7 @@ def home():
 def money():
     return render_template('money.html')
     
+    # Running the Flask app
 @app.route('/essentials')
 def essentials():
 	return render_template("essentials.html")
