@@ -43,12 +43,15 @@ def add():
     if request.method == 'GET':
            return render_template('add.html')
     else:
+<<<<<<< HEAD
    
+=======
+>>>>>>> 0f45a32f0e53a6ff1e5dc6146ef094a2ab912a15
        name = request.form['firstname']
        address = request.form['address']
-	   story=request.form['backround']
-	   email=request.form['email']
-	   needer_type=request.form['needer_type']
+       story=request.form['backround']
+       email=request.form['email']
+       needer_type=request.form['needer_type']
        needs=request.form['donations']
        phone_num=request.form['phone_number']
        link=request.form['link']
