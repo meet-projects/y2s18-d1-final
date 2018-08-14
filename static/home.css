@@ -72,7 +72,7 @@
 }
 .essentialsc { 
 	/*flex-direction: row;*/
-    flex: 2%; 
+    flex: 10%; 
     /*background-color: black; */
     padding: 20px; 
 }
