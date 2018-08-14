@@ -31,7 +31,7 @@ def aboutus():
 def essentials():
     essentials=get_all_donates_by_type("essentials")
     return render_template('essentials.html' , essentials=essentials)
-    
+
 @app.route('/contact_us')
 def contact():
     return render_template('contact_us.html')
