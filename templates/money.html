@@ -15,20 +15,23 @@
 </head>
 <body>
 	{% include 'navbar.html' %}
-	<div class="head">
-	<h1>DONATE MONEY</h1>
-	<P><I>A charity that helps save livs. </I></P>
-		<button type="button"> click here to donate </button>
-	</div>
+	
+		<div class="head">
+		<h1>DONATE MONEY</h1>
+		<P><I>A charity that helps save livs. </I></P>
+			<button type="button"> click here to donate </button>
+		</div>
 
-	<div class="topic">
-		<h2>donate these organizations:</h2>
-	</div>
-	<ol class="moneylist">
-      	{% for x in money %}
-      	<li> {{x}} </li>
-      	{% endfor %}
-    </ol>
+		<div class="topic">
+			<h2>donate these organizations:</h2>
+		</div>
+
+		<ol class="moneylist">
+	      	{% for x in money %}
+	      	<li> {{x}} </li>
+	      	{% endfor %}
+	    </ol>
+	
 	<!-- <div class="unrwa">
 		<h2> the United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) </h2>
 
