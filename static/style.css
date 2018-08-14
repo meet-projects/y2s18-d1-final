@@ -1,5 +1,6 @@
 body{
-    background-color:lightblue;
+    background-color:gray;
+   
 }
 
 button{
@@ -172,6 +173,7 @@ button{
 	left: 50px;
 	width: 90%;
 	border-style: solid;
+
 }
 
 .names{
