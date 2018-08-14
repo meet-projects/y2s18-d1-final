@@ -206,3 +206,19 @@ button{
     border-style: solid;
     width: 80%; 
 }
+.essentials{
+   position: absolute;
+   color: white;
+    left: 50px;
+    top:300px ;
+    border-style: solid;
+    width: 80%; 
+}
+.moneylist{
+   position: absolute;
+   color: white;
+    left: 50px;
+    top:300px ;
+    border-style: solid;
+    width: 80%; 
+}

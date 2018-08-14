@@ -22,17 +22,17 @@
 	<div class="topic">
 		<h2>donate these organizations:</h2>
 	</div>
-	<ol>
+	<ol class="moneylist">
       	{% for x in money %}
       	<li> {{x}} </li>
       	{% endfor %}
     </ol>
-	<div class="unrwa">
+	<!-- <div class="unrwa">
 		<h2> the United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) </h2>
 
 		<p>  is a relief and human development agency which supports more than 5 million registered Palestinian refugees, and their descendants, who fled or were expelled from their homes during the 1948 Palestine war as well as those who fled or were expelled during and following the 1967 Six Day war. Originally intended to provide jobs on public works projects and direct relief, today UNRWA provides education, health care, and social services to the population it supports. Aid is provided in five areas of operation: Jordan, Lebanon, Syria, the Gaza Strip and the West Bank, including East Jerusalem; aid for Palestinian refugees outside these five areas is provided by UNHCR.</p>
 		
-	</div>
+	</div> -->
 	       <!-- Add JQuery and Bootstrap JS to the page -->
        <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
        <script src="{{ url_for('static', filename='jquery.js') }}"></script>
