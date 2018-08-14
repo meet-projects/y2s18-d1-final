@@ -1,18 +1,24 @@
 .header{
 	padding: 80px; 
     text-align: center; 
-    background: blue; 
     color: white; 
+    font-family: Courier New OS
 }
 
 
 .header h1 {
     font-size: 40px;
 }
+.wrapper {
+    background-image: url('/static/pic.jpeg');
+}
 
+#p1 {
+    font-family: Caveant;
+}
 .navbar {
     overflow: hidden; 
-    background-color: #333; 
+    background-color: #4A5043;
 }
 
 
@@ -76,3 +82,18 @@
     text-align: center; 
     background: #ddd; 
 }
+
+.button {
+  font: bold 18px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin: 3px;
+}
+
+

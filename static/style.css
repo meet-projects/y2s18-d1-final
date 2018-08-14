@@ -1,5 +1,5 @@
 body{
-    background-color:blue;
+    background-color:lightblue;
 }
 
 button{
@@ -172,7 +172,16 @@ button{
 	top: 150px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
+	padding-left: 10px
+}
+.ournames{
+	position: absolute;
+	color: black;
+	top: 150px;
+	left: 50px;
+	width: 90%;
+	padding-left: 10px
+
 }
 .emails{
 	position: absolute;
@@ -181,6 +190,8 @@ button{
 	left: 50px;
 	width: 90%;
 	border-style: solid;
+	padding-left: 10px
+
 }
 .info{
 	position: absolute;
