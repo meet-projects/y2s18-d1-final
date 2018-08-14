@@ -3,20 +3,22 @@
 <head>
     <title>Add an organization</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='home.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}"">
+
 </head>
 <body>
     <div class="add_class_text">
     <h1>Add a organization or a private place to donate to:</h1>
     </div>
-    <div class="donate_form">
+    <div>
     <form method="post">
         <div class="organization_name">
-        <input type="text" name="name" placeholder="Organization/person Name">
+        <input type="text" name="name" placeholder="Organization/person Name" class="organization_name1">
         </div>
         <br>
         <br>
         <div class="about_organization">
-                <input type="text" name="backround" placeholder="Write a little bit about the cause or about the organization and about yourself">
+                <input type="text" name="backround" placeholder="Write a little bit about the cause or about the organization and about yourself" class="about_organization1"> 
 
                 </div>
         <br>
@@ -40,7 +42,7 @@
         <input type="text" name="address" placeholder="Address">
         <br>	
         <input type="text" Name="phone_number" placeholder="Phone number">
-        <input type="text" Name="link" placeholder="optional:link to website">
+        <input type="text" Name="link" placeholder="optional:link to website" class="contact_organization1">
         </div>
         <br>
         <br>
@@ -64,12 +66,12 @@
         </div>
         <br>
         <div class="submit">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="submit1" >
         </div>
     </form>
     <br>
     <div class="add_home_button">
-    <a href="/" class="button">Home</a>
+    <a href="/" class="button add_home_button1" >Home</a >
     </div>
     </div>
 </body>
