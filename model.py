@@ -34,7 +34,7 @@ class Donate(Base):
 					self.story,
 					self.email,
 					self.needer_type,
-					self.needs,
+					' '.join(i+', ' for i in self.needs.split('|')),
 					self.phone_num,
 					self.address,
 					self.link)

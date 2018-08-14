@@ -50,12 +50,13 @@ def add():
         email=request.form['email']
         print("hi3")
         needer_type=request.form['needer_type']
-        needs=request.form['donations']
+        needs=request.form.getlist('donations')
+        print("Needs: ",needs)
         phone_num=request.form['phone_number']
         link=request.form['link']
         pic=request.form['pic']
 
-        add_donate(name, story, email, needer_type, needs, phone_num, address, link, pic)
+        add_donate(name, story, email, needer_type, "|".join(needs), phone_num, address, link, pic)
         print("hi 4")
         return render_template('check.html',
                n=name,
