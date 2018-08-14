@@ -15,29 +15,28 @@ def home():
 
 @app.route('/money')
 def money():
-    
     money=session.query(
        Donate).filter_by(
        needs=money).all()
-    return render_template('money.html')
+    return render_template('money.html' , money=money)
+
 @app.route('/food')
 def food():
-    
     food=session.query(
        Donate).filter_by(
        needs=food).all()
-    return render_template('food.html')
+    return render_template('food.html' , food=food)
+
 @app.route('/about_us')
 def aboutus():
     return render_template('about_us.html')
 
 @app.route('/essentials')
 def essentials():
-    
     essentials =session.query(
        Donate).filter_by(
        needs=essentials).all()  
-    return render_template('essentials.html') 
+    return render_template('essentials.html' , essentials= essentials) 
 @app.route('/contact_us')
 def contact():
     return render_template('contact_us.html')
