@@ -114,6 +114,14 @@ button{
     width: 80%;
 
 }
+.foodlist{
+   position: absolute;
+   color: white;
+    left: 50px;
+    top:300px ;
+    border-style: solid;
+    width: 80%; 
+}
 
 .head2{
     position: absolute;
