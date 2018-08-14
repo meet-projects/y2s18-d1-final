@@ -3,18 +3,33 @@
 <head>
 	<title>About Us</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+
+       <!-- Add Bootstrap CSS to the page -->
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
 </head>
 <body>
 	{% include 'navbar.html' %}
-	<div class="about">
-		<h1 class="about-h1">ABOUT US</h1>
-	</div>
-	<div class="info">
-	<p>we are a group of students who founded this website that connects donors with people in need in order to help to the community.
-	</p>
 
+	<div class="row content">
+		<div class="col-sm">
+			<div class="about">
+				<h1 class="about-h1">ABOUT US</h1>
+			</div>
+			<div class="info">
+			<p>we are a group of students who founded this website that connects donors with people in need in order to help to the community
+			</p>
+		    </div>
+	    </div>
 
+	    <div class="col-sm">
+	    	<img src="../static/laith.jpeg" alt="laith" width="128" height="128">
+
+	    	
+	    </div>
     </div>
+
+     <script src="{{ url_for('static', filename='jquery.js') }}"></script>
+       <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>
 
 </body>
 </html>
