@@ -206,7 +206,7 @@ button{
 .us{
     position: absolute;
     color: black;
-    top: 150px;
+    top: px;
     left: 50px;
     width: 100%;
     border-style: solid;
@@ -214,7 +214,7 @@ button{
 .emails{
     position: absolute;
     color: black;
-    top: 300px;
+    top: 275px;
     left: 50px;
     width: 100%;
     border-style: solid;
