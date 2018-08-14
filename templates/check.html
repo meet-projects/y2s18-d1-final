@@ -13,7 +13,10 @@
     <p>Your address {{ a }}</p>
     <p>Your phone {{ p }}</p>
     <p>You are {{ nt }}</p> 
-    <p>you need {{ ne }}</p>
+    <p>you need</p>
+    {% for x in ne:%}
+    <li> {{x}} </li>
+    {% endfor %}
     <p>link {{l}}</p>
     <p>pic {{pic}}</p>
 </body>
