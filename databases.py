@@ -25,4 +25,8 @@ def get_all_donates():
     donates = session.query(Donate).all()
     return donates
 
+def get_all_donates_by_type(type):
+	return session.query(Donate).filter_by(needs=type).all()
+
+
 gilad=add_donate("gilad" , "i want to buy ice cream" , "g@gmail.com" , "person", "money", 000, "ha","rf", "ddfsdf")

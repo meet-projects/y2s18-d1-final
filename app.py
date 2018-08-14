@@ -1,6 +1,6 @@
 # Flask-related imports
-from flask import Flask, render_template, url_for, redirect, request, session
-from databases import add_donate
+from flask import Flask, render_template, url_for, redirect, request
+from databases import add_donate, get_all_donates_by_type
 
 # Add functions you need from databases.py to the next line!
 # from databases import add_student, get_all_students
@@ -15,16 +15,12 @@ def home():
 
 @app.route('/money')
 def money():
-    money=session.query(
-       Donate).filter_by(
-       needs=money).all()
+    money=get_all_donates_by_type("money")
     return render_template('money.html' , money=money)
 
 @app.route('/food')
 def food():
-    food=session.query(
-       Donate).filter_by(
-       needs=food).all()
+    food=get_all_donates_by_type("food")
     return render_template('food.html' , food=food)
 
 @app.route('/about_us')
@@ -33,10 +29,9 @@ def aboutus():
 
 @app.route('/essentials')
 def essentials():
-    essentials =session.query(
-       Donate).filter_by(
-       needs=essentials).all()  
-    return render_template('essentials.html' , essentials= essentials) 
+    essentials=get_all_donates_by_type("essentials")
+    return render_template('essentials.html' , essentials=essentials)
+    
 @app.route('/contact_us')
 def contact():
     return render_template('contact_us.html')

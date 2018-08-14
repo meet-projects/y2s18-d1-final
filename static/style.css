@@ -172,25 +172,38 @@ button{
 	top: 150px;
 	left: 50px;
 	width: 90%;
+	border-style: solid;
 	padding-left: 10px
 }
 .ournames{
 	position: absolute;
 	color: black;
-	top: 150px;
+	top: 210px;
 	left: 50px;
 	width: 90%;
 	padding-left: 10px
 
 }
+
+
 .emails{
 	position: absolute;
 	color: black;
-	top: 275px;
+	top: 330px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
-	padding-left: 10px
+	padding-left: 10px;
+
+}
+.themail{
+	position: absolute;
+	color: black;
+	top: 390px;
+	left: 50px;
+	width: 90%;
+	padding-left: 10px;
+	{display: inline;}
 
 }
 .info{
@@ -220,17 +233,6 @@ button{
     width: 100%;
     border-style: solid;
 }
-.emails{
-    position: absolute;
-    color: black;
-    top: 275px;
-    left: 50px;
-    width: 100%;
-    border-style: solid;
-}
-
-
-
 .about-h1{
 	padding-left: 35%;
 
