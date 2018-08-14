@@ -4,6 +4,7 @@ from model import Base, Donate
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy import literal
 
 # You can change the name of your database, just change project.db to whatever you want (make sure to include .db at the end!)
 # Make sure you have the same name for the database in the app.py file!
@@ -26,7 +27,7 @@ def get_all_donates():
     return donates
 
 def get_all_donates_by_type(type):
-	return session.query(Donate).filter_by(needs=type).all()
+	return session.query(Donate).filter(Donate.needs.contains(type)).all()
 
 
 gilad=add_donate("gilad" , "i want to buy ice cream" , "g@gmail.com" , "person", "money", 000, "ha","rf", "ddfsdf")

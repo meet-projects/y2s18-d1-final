@@ -115,8 +115,11 @@ button{
 	top: 50px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 
+
+}
+hr{
+	background-color:black;
 }
 
 .names{
@@ -200,7 +203,6 @@ button{
 .contact-h1{
 	padding-left: 35%;
 }
-<<<<<<< HEAD
 
 .add_class_text{
     position: absolute;
@@ -349,7 +351,8 @@ button{
     width: 60px;
     height: 30px;
     display: inline-block;
-=======
+}
+
 .foodlist{
    position: absolute;
    color: white;
@@ -373,5 +376,10 @@ button{
     top:300px ;
     border-style: solid;
     width: 80%; 
->>>>>>> 5b4c5628811dcda38fd6715c8359e7694f54ce36
+}
+.profiles{
+	position: absolute;
+    left: 50px;
+    top:300px ;
+
 }
