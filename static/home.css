@@ -1,18 +1,24 @@
 .header{
 	padding: 80px; 
     text-align: center; 
-    background: blue; 
     color: white; 
+    font-family: Courier New OS
 }
 
 
 .header h1 {
     font-size: 40px;
 }
+.wrapper {
+    background-image: url('/static/pic.jpeg');
+}
 
+#p1 {
+    font-family: Caveant;
+}
 .navbar {
     overflow: hidden; 
-    background-color: #333; 
+    background-color: #4A5043;
 }
 
 
