@@ -31,7 +31,7 @@ def aboutus():
 def essentials():
     essentials=get_all_donates_by_type("essentials")
     return render_template('essentials.html' , essentials=essentials)
-    
+
 @app.route('/contact_us')
 def contact():
     return render_template('contact_us.html')
@@ -50,7 +50,7 @@ def add():
         email=request.form['email']
         print("hi3")
         needer_type=request.form['needer_type']
-        needs=request.form['donations']
+        needs =request.form['donations']
         phone_num=request.form['phone_number']
         link=request.form['link']
         pic=request.form['pic']

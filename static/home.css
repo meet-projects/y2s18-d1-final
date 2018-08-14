@@ -11,14 +11,20 @@
 }
 .wrapper {
     background-image: url('/static/pic.jpeg');
+    background-repeat: round;
+    width:70%;
+   
+    
 }
 
 #p1 {
     font-family: Caveant;
 }
 .navbar {
+	position: fixed;
     overflow: hidden; 
     background-color: #4A5043;
+    width:100%;
 }
 
 
@@ -40,14 +46,16 @@
     background-color: #ddd; 
     color: black; 
 }
-
+/*
 .row { 
+	flex-direction: row;
     display: flex;
     flex-wrap: wrap;
 }
+*/
 
-
-.moneyc {
+/*.moneyc {
+	flex-direction: row;
     flex: 30%; 
     background-color: black; 
     padding: 20px; 
@@ -55,15 +63,17 @@
 
 
 .foodc { 
+	flex-direction: row;
     flex: 70%; 
     background-color: black; 
     padding: 20px; 
 }
 .essentialsc { 
+	flex-direction: row;
     flex: 70%; 
     background-color: black; 
     padding: 20px; 
-}
+}*/
 
 @media screen and (max-width: 700px) {
     .row { 
