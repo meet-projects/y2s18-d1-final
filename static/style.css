@@ -201,7 +201,6 @@ button{
 	padding-left: 35%;
 }
 
-
 .add_class_text{
     position: absolute;
     color: black;
@@ -374,6 +373,4 @@ button{
     top:300px ;
     border-style: solid;
     width: 80%; 
-    background-color: gray;
-
 }
