@@ -3,15 +3,10 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
 	
-
-       <!-- Add Bootstrap CSS to the page -->
-       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
-
 </head>
 <body>
 
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
   <a class="navbar-brand" href="#">Donate.com</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,34 +17,20 @@
       <li class="nav-item active">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/about_us">About us <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/about_us">About Us <span class="sr-only">(current)</span></a>
       </li>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/contact_us">Contact us<span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="contact_us">Contact us</a>
       </li>
       
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Learn more</a>
-      </li>
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
+    <form action='/add' class="form-inline my-2 my-lg-0">
+      
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Click to Donate</button>
+    </form>
   </div>
-<!-- <div class="navbar">
-	<a href="/"></a>
-	<a href="about_us"></a>
-	<a href="contact_us"></a>	</div> -->
-
 </nav>
 
- <script src="{{ url_for('static', filename='jquery.js') }}"></script>
-       <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>
 </body>
 </html>

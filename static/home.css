@@ -65,9 +65,10 @@
 
 .foodc { 
 	/*flex-direction: row;*/
-    flex: 50%; 
+    flex: 50%;
+    left:20px; 
     /*background-color: black; */
-    padding: 20px; 
+    padding: 50px; 
 }
 .essentialsc { 
 	/*flex-direction: row;*/
