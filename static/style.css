@@ -248,3 +248,151 @@ button{
 	padding-left: 35%;
 }
 
+.add_class_text{
+    position: absolute;
+    color: black;
+    top: 50px;
+    left: 50px;
+    width: 90%;
+    border-style: solid;
+
+}
+
+.donate_form{
+    position: absolute;
+    color: black;
+    top: 180px;
+    left: 50px;
+    border-style: solid;
+}
+
+.organization_name{
+    position: absolute;
+    color: black;
+    top: 197px;
+    left: 50px;
+   
+}
+
+.organization_name1
+{
+    width: 465px;
+    height: 35px;
+}
+.about_organization{
+    position: absolute;
+    color: black;
+    top: 244px;
+    left: 50px;
+
+ 
+}
+
+.about_organization1{
+    width:465px;
+    height: 35px;
+
+}
+
+.organization_type_text{
+    position: absolute;
+    color: black;
+    top: 290px;
+    left: 50px;
+    width: 50%;
+    display: inline-block;
+
+}
+
+.organization_type{
+    position: absolute;
+    color: black;
+    top: 365px;
+    left: 50px;
+    width: 50%;
+    border-style: solid;
+}
+
+.contact_organization_text{
+    position: absolute;
+    color: black;
+    top: 408px;
+    left: 50px;
+    width: 50%;
+}
+
+.contact_organization{
+    position: absolute;
+    color: black;
+    top: 479px;
+    left: 50px;
+    width: 90%;
+
+}
+
+/*.contact_organization1{
+    width: 200px;
+    height: 35px;
+}*/
+
+.about_donations_text{
+    position: absolute;
+    color: black;
+    top: 537px;
+    left: 50px;
+    width: 50%;
+}
+
+.about_donations{
+    position: absolute;
+    color: black;
+    top: 607px;
+    left: 50px;
+    width: 50%;
+    border-style: solid;
+}
+
+.cause_text{
+    position: absolute;
+    color: black;
+    top: 650px;
+    left: 50px;
+    width: 50%;
+}
+
+.cause{
+    position: absolute;
+    color: black;
+    top: 700px;
+    left: 50px;
+    width: 50%;
+    border-style: solid;
+}
+
+.submit{
+    position: absolute;
+    color: black;
+    top: 143px;
+    left: 0px;
+    width: 90%;
+
+}
+
+.submit1{
+    width: 200px;
+    height: 35px;
+}
+
+.add_home_button{
+    position: absolute;
+    color: black;
+    top:140px;
+    left: 800px;
+
+}
+
+.add_home_button1{
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+}
