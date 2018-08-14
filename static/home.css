@@ -53,13 +53,17 @@
     flex-wrap: wrap;
 }*/
 
-
+body{
+	background-color: white;
+}
 .moneyc {
 	/*flex-direction: row;*/
-	left:90px;
-    flex: 30%; 
+	/*left:90px;*/
+    /*flex: 30%; */
     /*background-color: black;*/ 
-    padding: 20px; 
+    /*padding: 20px; */
+    border: black;
+    border-width: 100px;
 }
 
 
@@ -69,6 +73,7 @@
     left:20px; 
     /*background-color: black; */
     padding: 50px; 
+
 }
 .essentialsc { 
 	/*flex-direction: row;*/
@@ -111,4 +116,6 @@
 
 .mainrow{
 	height: 240px;
+	text-align: center;
+	padding: 70px;
 }
