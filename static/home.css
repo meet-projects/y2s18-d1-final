@@ -25,7 +25,6 @@
     overflow: hidden; 
     background-color: #4A5043;
     width:100%;
-    z-index: 10;
 }
 
 
@@ -60,28 +59,31 @@ body{
 }
 .moneyc {
 	/*flex-direction: row;*/
-	/*left:90px;*/
-    /*flex: 30%; */
+	left:90px;
+    flex: 30%; 
     /*background-color: black;*/ 
-    /*padding: 20px; */
-    border: black;
-    border-width: 100px;
+    padding: 50px; 
+    border:5px solid #009FFD;
+    
 }
 
 
 .foodc { 
 	/*flex-direction: row;*/
-    flex: 50%;
-    left:20px; 
+    left:90px;
+    flex: 30%; 
     /*background-color: black; */
     padding: 50px; 
+    border:5px solid #009FFD; 
 
 }
 .essentialsc { 
 	/*flex-direction: row;*/
-    flex: 10%; 
+    left:90px;
+    flex: 30%; 
     /*background-color: black; */
-    padding: 20px; 
+    padding: 50px; 
+    border:5px solid #009FFD; 
 }
 
 @media screen and (max-width: 700px) {
@@ -119,5 +121,5 @@ body{
 .mainrow{
 	height: 240px;
 	text-align: center;
-	padding: 70px;
+	padding: 100px;
 }
