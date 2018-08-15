@@ -11,15 +11,16 @@
 
        <!-- Add Bootstrap CSS to the page -->
        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='moneyessentialsfood.css') }}">
+
 </head>
 <body>
   {% include 'navbar.html' %}
-	<div class="head2">
-	<h1>DONATE FOOD</h1>
-	<P><I>A charity that helps save livs. </I></P>
+	<div>
+	<h1 class="head">DONATE FOOD</h1>
 	</div>
 
-	<div class="topic2">
+	<div class="topic">
 		<h2>Information about the organizations:</h2>
 	</div>
 	<div class="foodlist">
@@ -28,7 +29,7 @@
       <div>
       <h1> The name: {{x.name}} </h1>
       <li> Type: {{x.needer_type}}</li>
-      <p> The story: {{x.story}}</p>
+      <li> The story: {{x.story}}</li>
       <li> contact to him:</li>
       <li> Email: {{x.email}}</li>
       <li> Phone: {{x.phone_num}}</li>
