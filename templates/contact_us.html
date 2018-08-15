@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>Contact Us</title>
-	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}"">
+	<!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}""> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+	{% include 'navbar.html' %}
 </head>
 
 <body>
-	{% include 'navbar.html' %}
+	
 	<div class="cont">
 	<h1 class="contact-h1">CONTACT US</h1>
 	<hr>		
