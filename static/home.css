@@ -56,6 +56,7 @@
 
 body{
     background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
+    background-repeat: none;
 
 }
 .moneyc {
@@ -63,13 +64,13 @@ body{
 	color:white;
 	left:90px;
     flex: 30%; 
-    background: gray url("../static/money.jpg");
-    background-size: 150px 150px;
-    background-position:3px -15px;
+    background:  url("money2.png");
+    background-size: 170px 170px;
+    background-position:-9px -25px;
     /*background-color: black;*/ 
     padding: 50px; 
     /*border:5px solid #009FFD;*/
-    
+    background-repeat: no-repeat;
 }
 
 
@@ -77,9 +78,11 @@ body{
 	/*flex-direction: row;*/
     left:90px;
     flex: 30%; 
-    background-image: url("static/food.jpg");
-    background-size: 150px 150px;
-    background-position:3px -15px;
+    background-image: url("food.jpg");
+    background-size: 133px 133px;
+    background-position:3px -10px;
+    background-repeat: no-repeat;
+
     /*background-color: black; */
     padding: 50px; 
     /*border:5px solid #009FFD;*/
@@ -90,12 +93,13 @@ body{
 	/*flex-direction: row;*/
     left:90px;
     flex: 30%; 
-    background-image: url("static/essent.jpg");
+    background-image: url("essent.jpg");
     background-size: 150px 150px;
     background-position:3px -15px;
     /*background-color: black; */
     padding: 50px; 
     /*border:5px solid #009FFD;*/ 
+    background-repeat: no-repeat;
 
 }
 
