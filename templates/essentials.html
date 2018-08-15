@@ -2,57 +2,60 @@
 <html>
 <head>
 
-	{% include 'navbar.html' %}
+    <title>Essentials</title>
+    
+    <link rel="shortcut icon" href="{{url_for('static' , filename = '18e4e749-8ff3-45fe-b988-5d43d873c812.png')}}">
+    <!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}""> -->
 
-
-	<title>Essentials</title>
-	<!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}""> -->
-
-	       <!-- Required tags to make the website responsive-->
+           <!-- Required tags to make the website responsive-->
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
        <!-- Add Bootstrap CSS to the page -->
        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='moneyessentialsfood.css') }}">
+
 </head>
 <body>
-	<div class="head1">
-	<h1>DONATE ESSENTIALS</h1>
-	<P><I>A charity that helps save livs. </I></P>
+      {% include 'navbar.html' %}
+
+	<div>
+	<h1 class="head">DONATE ESSENTIALS</h1>
 	</div>
 
-	<div class="topic1">
+	<div class="topic">
 		<h2>donate these organizations:</h2>
 	</div>
 
-	<!-- <div class="unicef">
+
+    <!-- <div class="unicef">
 >>>>>>> 14cf824a414dae1fc584fcc4817ac08813cf3792
-		<h2>The United Nations Children's Fund (UNICEF)</h2>
+        <h2>The United Nations Children's Fund (UNICEF)</h2>
 
-	<p>is a United Nations (UN) program headquartered in New York City that provides humanitarian and developmental assistance to children and mothers in developing countries. It is a member of the United Nations Development Group.</p>
-	</div>
+    <p>is a United Nations (UN) program headquartered in New York City that provides humanitarian and developmental assistance to children and mothers in developing countries. It is a member of the United Nations Development Group.</p>
+    </div>
 
-	<div class="baby">
-		<h2>BABY2BABY</h2>
-		<p>Baby2Baby provides low-income children ages 0-12 years with diapers, clothing and all the basic necessities that every child deserves.
+    <div class="baby">
+        <h2>BABY2BABY</h2>
+        <p>Baby2Baby provides low-income children ages 0-12 years with diapers, clothing and all the basic necessities that every child deserves.
 </p> -->
-	</div>
-	<ul class="essentials">
-      	{% for x in essentials|sort(attribute='id', reverse = True) %}
-      	<div>
-      	<h1> The name: {{x.name}} </h1>
-      	<li> Type: {{x.needer_type}}</li>
-      	<p> The story: {{x.story}}</p>
-      	<li> contact to him:</li>
-      	<li> Email: {{x.email}}</li>
-      	<li> Phone: {{x.phone_num}}</li>
-      	<li> Address: {{x.address}}</li>
-      	<li> Link: {{x.link}}</li>
+    </div>
+    <ul class="essentials">
+        {% for x in essentials|sort(attribute='id', reverse = True) %}
+        <div>
+        <h1> The name: {{x.name}} </h1>
+        <li> Type: {{x.needer_type}}</li>
+        <p> The story: {{x.story}}</p>
+        <li> contact to him:</li>
+        <li> Email: {{x.email}}</li>
+        <li> Phone: {{x.phone_num}}</li>
+        <li> Address: {{x.address}}</li>
+        <li> Link: {{x.link}}</li>
 
-      	</div>
-      	{% endfor %}
+        </div>
+        {% endfor %}
     </ul>
-	       <!-- Add JQuery and Bootstrap JS to the page -->
+           <!-- Add JQuery and Bootstrap JS to the page -->
        <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
        <script src="{{ url_for('static', filename='jquery.js') }}"></script>
        <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>

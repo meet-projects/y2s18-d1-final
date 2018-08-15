@@ -1,0 +1,96 @@
+.foodlist{
+   position: absolute;
+   color: white;
+    left: 50px;
+    top:300px ;
+    width: 80%; 
+    color:white;
+}
+.essentials{
+   position: absolute;
+   color: white;
+    left: 50px;
+    top:300px ;
+    width: 80%; 
+    color:white;
+
+}
+.moneylist{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top:300px ;
+    width: 80%; 
+    font-size: 20px;
+    color:white;
+}
+
+.head{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 50px;
+    width: 80%;
+    color:white;
+    font-size: 90px;
+
+
+}
+
+.topic{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top: 225px ;
+    width: 80%;
+    color:white;
+
+
+}
+
+.head1{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 50px;
+    width: 80%;
+    color:white;
+
+}
+
+.topic1{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top:225px ;
+    width: 80%;
+    color:white;
+
+}
+.topic2{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top:225px ;
+    width: 80%;
+    color:white;
+
+}
+
+
+
+
+
+.head2{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 50px;
+    width: 80%;
+    color:white;
+
+}
+
+.for{
+    color: white;
+}

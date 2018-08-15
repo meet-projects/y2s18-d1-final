@@ -1,6 +1,9 @@
+html{
+	height: 100%;
+}
 body{
     background-color:white;
-   
+   height: 100%;
 }
 
 /*button{
@@ -13,69 +16,7 @@ body{
 
 }
 
-.head{
-    position: absolute;
-    color: white;
-    top: 100px;
-    left: 50px;
-    border-style: solid;
-    width: 80%;
 
-}
-
-.topic{
-    position: absolute;
-    color: white;
-    left: 50px;
-    top: 225px ;
-    border-style: solid;
-    width: 80%;
-
-
-}
-
-.head1{
-    position: absolute;
-    color: white;
-    top: 100px;
-    left: 50px;
-    border-style: solid;
-    width: 80%;
-
-}
-
-.topic1{
-    position: absolute;
-    color: white;
-    left: 50px;
-    top:225px ;
-    border-style: solid;
-    width: 80%;
-
-}
-.topic2{
-    position: absolute;
-    color: white;
-    left: 50px;
-    top:225px ;
-    border-style: solid;
-    width: 80%;
-
-}
-
-
-
-
-
-.head2{
-    position: absolute;
-    color: white;
-    top: 100px;
-    left: 50px;
-    border-style: solid;
-    width: 80%;
-
-}
 .unrwa{
     position: absolute;
     color: white;
@@ -111,30 +52,29 @@ body{
 
 .cont{
 	position: absolute;
-	color: black;
-	top: 50px;
+	color: white;
+	top: 95px;
 	left: 50px;
 	width: 90%;
 
 
 }
 hr{
-	background-color:black;
+	background-color:white;
 }
 
 .names{
 	position: absolute;
-	color: black;
-	top: 150px;
+	color: white;
+	top: 175px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 	padding-left: 10px
 }
 .ournames{
 	position: absolute;
-	color: black;
-	top: 210px;
+	color: white;
+	top: 235px;
 	left: 50px;
 	width: 90%;
 	padding-left: 10px
@@ -144,17 +84,16 @@ hr{
 
 .emails{
 	position: absolute;
-	color: black;
-	top: 330px;
+	color: white;
+	top: 375px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 	padding-left: 10px;
 
 }
 .themail{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 390px;
 	left: 50px;
 	width: 90%;
@@ -173,7 +112,7 @@ hr{
 .about{
 	position: absolute;
 	color: black;
-	top: 100px;
+	top: 140px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -193,7 +132,7 @@ hr{
 .send_message{
     position: fixed;
     color: black;
-    top: 403px;
+    top: 470px;
     left: 50px;
 
 }
@@ -367,12 +306,14 @@ hr{
     width: 80%; 
 }
 .moneylist{
-   position: absolute;
-   color: white;
+    position: absolute;
+    color: white;
     left: 50px;
     top:300px ;
     border-style: solid;
     width: 80%; 
+    font-size: 20px;
+    color:white;
 }
 .profiles{
 	position: absolute;
