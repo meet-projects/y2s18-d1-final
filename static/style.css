@@ -13,69 +13,7 @@ button{
 
 }
 
-.head{
-    position: absolute;
-    color: white;
-    top: 100px;
-    left: 50px;
-    border-style: solid;
-    width: 80%;
 
-}
-
-.topic{
-    position: absolute;
-    color: white;
-    left: 50px;
-    top: 225px ;
-    border-style: solid;
-    width: 80%;
-
-
-}
-
-.head1{
-    position: absolute;
-    color: white;
-    top: 100px;
-    left: 50px;
-    border-style: solid;
-    width: 80%;
-
-}
-
-.topic1{
-    position: absolute;
-    color: white;
-    left: 50px;
-    top:225px ;
-    border-style: solid;
-    width: 80%;
-
-}
-.topic2{
-    position: absolute;
-    color: white;
-    left: 50px;
-    top:225px ;
-    border-style: solid;
-    width: 80%;
-
-}
-
-
-
-
-
-.head2{
-    position: absolute;
-    color: white;
-    top: 100px;
-    left: 50px;
-    border-style: solid;
-    width: 80%;
-
-}
 .unrwa{
     position: absolute;
     color: white;
@@ -367,12 +305,14 @@ hr{
     width: 80%; 
 }
 .moneylist{
-   position: absolute;
-   color: white;
+    position: absolute;
+    color: white;
     left: 50px;
     top:300px ;
     border-style: solid;
     width: 80%; 
+    font-size: 20px;
+    color:white;
 }
 .profiles{
 	position: absolute;
