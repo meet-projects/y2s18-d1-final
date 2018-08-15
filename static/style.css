@@ -1,6 +1,9 @@
+html{
+	height: 100%;
+}
 body{
     background-color:white;
-   
+   height: 100%;
 }
 
 /*button{
@@ -173,7 +176,7 @@ hr{
 .about{
 	position: absolute;
 	color: black;
-	top: 100px;
+	top: 140px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
