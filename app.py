@@ -1,7 +1,10 @@
 # Flask-related imports
 from flask import Flask, render_template, url_for, redirect, request
-from databases import add_donate, get_all_donates_by_type
+
 from flask_mail import Mail, Message
+
+from databases import add_donate, get_all_donates_by_type, search_donate
+
 
 # Add functions you need from databases.py to the next line!
 # from databases import add_student, get_all_students
@@ -45,6 +48,12 @@ def aboutus():
 def essentials():
     essentials=get_all_donates_by_type("essentials")
     return render_template('essentials.html' , essentials=essentials)
+
+@app.route('/search', methods=['POST'])
+def search():
+	results=search_donate(request.form["Search_text"])
+	print(results)
+	return render_template("search.html",results=results)
 
 @app.route('/contact_us')
 def contact():

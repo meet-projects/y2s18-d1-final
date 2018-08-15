@@ -6,9 +6,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import literal
 
+
 # You can change the name of your database, just change project.db to whatever you want (make sure to include .db at the end!)
 # Make sure you have the same name for the database in the app.py file!
-engine = create_engine('sqlite:///project.db')
+engine = create_engine('sqlite:///project.db', connect_args={'check_same_thread': False})
 Base.metadata.create_all(engine)
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
@@ -28,6 +29,8 @@ def get_all_donates():
 
 def get_all_donates_by_type(type):
 	return session.query(Donate).filter(Donate.needs.contains(type)).all()
-
+def search_donate(search):
+	results = session.query(Donate).filter(Donate.name.contains(search)).all()
+	return results
 
 gilad=add_donate("gilad" , "i want to buy ice cream" , "g@gmail.com" , "person", "money", 000, "ha","rf", "ddfsdf")
