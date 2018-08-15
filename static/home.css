@@ -55,7 +55,7 @@
 }*/
 
 body{
-    background-image: url("bk.jpg");
+    background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
 
     background-repeat: none;
 
@@ -101,7 +101,7 @@ a {
 }
 .essentialsc { 
 	/*flex-direction: row;*/
-    /*left:60px;*/
+    left:60px;
     flex: 30%; 
     background-image: url("essent.jpg");
     background-size: 150px 150px;
@@ -125,12 +125,12 @@ a {
         width: 100%;
     }
 }
-.footer {
+/*.footer {
     padding: 20px; 
     text-align: center; 
     background: #ddd; 
 }
-
+*/
 .button {
   font: bold 18px Arial;
   text-decoration: none;
