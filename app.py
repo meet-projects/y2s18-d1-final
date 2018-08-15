@@ -1,13 +1,30 @@
 # Flask-related imports
 from flask import Flask, render_template, url_for, redirect, request
+
+from flask_mail import Mail, Message
+
 from databases import add_donate, get_all_donates_by_type, search_donate
+
 
 # Add functions you need from databases.py to the next line!
 # from databases import add_student, get_all_students
 
 # Starting the flask app
 app = Flask(__name__)
+mail=Mail(app)
 
+mail_settings = {
+    "MAIL_SERVER": 'smtp.gmail.com',
+    "MAIL_PORT": 465,
+    "MAIL_USE_TLS": False,
+    "MAIL_USE_SSL": True,
+    "MAIL_USERNAME":'websitedonate1@gmail.com',
+    "MAIL_PASSWORD": 'xzaq1234'
+}
+
+app.config.update(mail_settings)
+
+mail=Mail(app)
 # App routing code here
 @app.route('/')
 def home():
@@ -61,7 +78,11 @@ def add():
         phone_num=request.form['phone_number']
         link=request.form['link']
         pic=request.form['pic']
-
+        msg = Message("Hello" + name,
+                  sender="websitedonate1@gmail.com",
+                  recipients=[email])
+        msg.body = "name: "+str(name) + "\n adress: "+ str(address) + "\nstory: "+str(story)+ "\nneeder type: "+str(needer_type) +"\n needs: " + str(needs) + "\nphone: "+str(phone_num) + "\nlink: "+str(link)+"\npic: "+str(pic)+"\n thank you for signing up!" 
+        mail.send(msg)
         add_donate(name, story, email, needer_type, "|".join(needs), phone_num, address, link, pic)
         print("hi 4")
         return render_template('check.html',
