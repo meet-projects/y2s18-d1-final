@@ -25,6 +25,7 @@
     overflow: hidden; 
     background-color: #4A5043;
     width:100%;
+    z-index: 10;
 }
 
 
