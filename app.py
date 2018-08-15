@@ -81,7 +81,7 @@ def add():
         msg = Message("Hello" + name,
                   sender="websitedonate1@gmail.com",
                   recipients=[email])
-        msg.body = "name: "+str(name) + "\n adress: "+ str(address) + "\nstory: "+str(story)+ "\nneeder type: "+str(needer_type) +"\n needs: " + str(needs) + "\nphone: "+str(phone_num) + "\nlink: "+str(link)+"\npic: "+str(pic)+"\n thank you for signing up!" 
+        msg.body = "name: "+str(name) + "\n adress: "+ str(address) + "\nstory: "+str(story)+ "\nneeder type: "+str(needer_type) +"\n needs: " + str(needs) + "\nphone: "+str(phone_num) + "\nlink: "+str(link)+"\npic: "+str(pic)+"\n thank you for joining us! good luck!" 
         mail.send(msg)
         add_donate(name, story, email, needer_type, "|".join(needs), phone_num, address, link, pic)
         print("hi 4")
