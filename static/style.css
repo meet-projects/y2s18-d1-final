@@ -164,11 +164,8 @@ hr{
 }
 .info{
 	position: absolute;
-	color: white;
-	top: 270px;
-	left: 50px;
 	color: black;
-	top: 150px;
+	top: 270px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -176,7 +173,7 @@ hr{
 .about{
 	position: absolute;
 	color: black;
-	top: 50px;
+	top: 100px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
