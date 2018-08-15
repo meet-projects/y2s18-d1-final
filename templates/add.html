@@ -1,83 +1,33 @@
 <!doctype html>
 <html>
 <head>
-    
-
     <title>Add an organization</title>
-    <link rel="shortcut icon" href="{{url_for('static' , filename = '18e4e749-8ff3-45fe-b988-5d43d873c812.png')}}">
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='home.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}"">
+	<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='moneyessentialsfood.css') }}">
-
-
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
 </head>
 <body>
-    <div>
-    <h1 class="head">Add an organization or a private place to donate to:</h1>
-    </div>
-    <div>
+    <h1 class="for" >Add a organization or a private place to to</h1>
+    <div class ="for1">
     <form method="post">
-        <div>
-        <input type="text" name="name" placeholder="Organization/person Name" class="organization_name1">
-        </div>
+        <input type="text" name="organization_name" placeholder="Organization Name">
         <br>
-        <br>
-        <div>
-                <input type="text" name="backround" placeholder="Write a little bit about the cause or about the organization and about yourself" class="about_organization1"> 
 
-                </div>
-        <br>
-        <br>
-        <div>
-        <p>What kind of organization are you?</p>
-        </div>
-
-        <div>
-        <input type="radio" Name="needer_type" value="private person">private person
-        <input type="radio" Name="needer_type" value="non-profit organization">non-profit organization
-        <input type="radio" Name="needer_type" value="company">company
-        </div>
-
-        <div>
         <p>Contact Info:</p>
-        </div>
-
-        <div>
         <input type="text" name="email" placeholder="Email">
-        <input type="text" name="address" placeholder="Address">
-        <br>	
+        <input type="text" name="adress" placeholder="Adress">	
         <input type="text" Name="phone_number" placeholder="Phone number">
-        <input type="text" Name="link" placeholder="optional:link to website" class="contact_organization1">
-        </div>
         <br>
-        <br>
-        
-        <div>
+        <input type="text" Name="backround" placeholder="Write a little bit about the cause">
+
         <p>What donations do you need?</p>
-        </div>
-        <br>
-        <div>
         <input type="checkbox" name="donations" value="money">money
         <input type="checkbox" name="donations" value="essentials">essentials
         <input type="checkbox" name="donations" value="food">food
-        </div>
         <br>
-        <br>
-        <div>
-            <p>show us a picture for the cause</p>
-</div>
-        <div>
-        <input type="text" name="pic" placeholder="url of a picture of the cause">
-        </div>
-        <br>
-        <div">
-        <input type="submit" value="Submit" class="submit1" >
-        </div>
+        <input type="submit" value="Submit">
     </form>
-    <br>
-    <div>
-    <a href="/">Home</a >
-    </div>
     </div>
 </body>
 </html>
