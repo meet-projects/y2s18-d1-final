@@ -101,7 +101,7 @@ a {
 }
 .essentialsc { 
 	/*flex-direction: row;*/
-    left:90px;
+    /*left:60px;*/
     flex: 30%; 
     background-image: url("essent.jpg");
     background-size: 150px 150px;
