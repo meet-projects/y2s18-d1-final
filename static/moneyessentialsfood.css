@@ -54,19 +54,22 @@
     top: 100px;
     left: 50px;
     width: 80%;
+    font-size: 90px;
     color:white;
 
 }
 
-.topic1{
+.essentials_slogan{
     position: absolute;
     color: white;
     left: 50px;
-    top:225px ;
+    top:170px ;
     width: 80%;
+    font-size: 30px;
     color:white;
 
 }
+
 .topic2{
     position: absolute;
     color: white;
