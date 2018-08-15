@@ -103,19 +103,17 @@ hr{
 }
 .info{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 270px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 }
 .about{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 140px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 }
 .us{
     position: absolute;
