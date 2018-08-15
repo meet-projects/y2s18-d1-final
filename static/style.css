@@ -52,7 +52,7 @@ body{
 
 .cont{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 95px;
 	left: 50px;
 	width: 90%;
@@ -60,21 +60,20 @@ body{
 
 }
 hr{
-	background-color:black;
+	background-color:white;
 }
 
 .names{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 175px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 	padding-left: 10px
 }
 .ournames{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 235px;
 	left: 50px;
 	width: 90%;
@@ -85,19 +84,18 @@ hr{
 
 .emails{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 375px;
 	left: 50px;
 	width: 90%;
-	border-style: solid;
 	padding-left: 10px;
 
 }
 .themail{
 	position: absolute;
-	color: black;
+	color: white;
 	top: 390px;
-	left: 175px;
+	left: 50px;
 	width: 90%;
 	padding-left: 10px;
 	display: inline;
