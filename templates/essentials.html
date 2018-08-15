@@ -42,7 +42,8 @@
     </div>
     <ul class="essentials">
         {% for x in essentials|sort(attribute='id', reverse = True) %}
-        <div>
+        <div class="row mar">
+        <div class="col-md-9">
         <h1> The name: {{x.name}} </h1>
         <li> Type: {{x.needer_type}}</li>
         <p> The story: {{x.story}}</p>
@@ -51,10 +52,15 @@
         <li> Phone: {{x.phone_num}}</li>
         <li> Address: {{x.address}}</li>
         <li> Link: {{x.link}}</li>
+        </div>
+        <div class="col-md-3">
+        <img src = "{{x.pic}}" width = "250">
+        </div>
 
         </div>
         {% endfor %}
     </ul>
+    </div>
            <!-- Add JQuery and Bootstrap JS to the page -->
        <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
        <script src="{{ url_for('static', filename='jquery.js') }}"></script>
