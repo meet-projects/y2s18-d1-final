@@ -12,6 +12,8 @@
        <!-- Add Bootstrap CSS to the page -->
        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='moneyessentialsfood.css') }}">
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+
 
 </head>
 <body>
@@ -21,12 +23,13 @@
 	</div>
 
 	<div class="topic">
-		<h2>Information about the organizations:</h2>
+		<h2>Donate these organizations or people:</h2>
 	</div>
 	<div class="foodlist">
   <ul>
       {% for x in food|sort(attribute='id', reverse = True) %}
-      <div>
+      <div class="row mar">
+      <div class="col-md-9">
       <h1> The name: {{x.name}} </h1>
       <li> Type: {{x.needer_type}}</li>
       <li> The story: {{x.story}}</li>
@@ -35,6 +38,10 @@
       <li> Phone: {{x.phone_num}}</li>
       <li> Address: {{x.address}}</li>
       <li> Link: {{x.link}}</li>
+      </div>
+      <div class="col-md-3">
+      <img src = "{{x.pic}}" width = "250">
+      </div>
 
       </div>
       {% endfor %}

@@ -34,7 +34,7 @@ body{
 .head{
     position: absolute;
     color: white;
-    top: 100px;
+    top: 90px;
     left: 50px;
     width: 80%;
     color:white;
@@ -108,4 +108,8 @@ body{
 .for1{
     color:white;
 
+}
+
+.mar{
+    margin-top: 40px;
 }
