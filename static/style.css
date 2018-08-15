@@ -112,7 +112,7 @@ body{
 .cont{
 	position: absolute;
 	color: black;
-	top: 50px;
+	top: 95px;
 	left: 50px;
 	width: 90%;
 
@@ -125,7 +125,7 @@ hr{
 .names{
 	position: absolute;
 	color: black;
-	top: 150px;
+	top: 175px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -134,7 +134,7 @@ hr{
 .ournames{
 	position: absolute;
 	color: black;
-	top: 210px;
+	top: 235px;
 	left: 50px;
 	width: 90%;
 	padding-left: 10px
@@ -145,7 +145,7 @@ hr{
 .emails{
 	position: absolute;
 	color: black;
-	top: 330px;
+	top: 375px;
 	left: 50px;
 	width: 90%;
 	border-style: solid;
@@ -156,7 +156,7 @@ hr{
 	position: absolute;
 	color: black;
 	top: 390px;
-	left: 50px;
+	left: 175px;
 	width: 90%;
 	padding-left: 10px;
 	display: inline;
@@ -193,7 +193,7 @@ hr{
 .send_message{
     position: fixed;
     color: black;
-    top: 403px;
+    top: 470px;
     left: 50px;
 
 }
