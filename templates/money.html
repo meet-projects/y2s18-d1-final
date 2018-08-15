@@ -11,6 +11,8 @@
 	
 	<!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}""> -->
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='moneyessentialsfood.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+
 
 
            <!-- Required tags to make the website responsive-->
@@ -31,7 +33,7 @@
 
 
     <div class="topic">
-        <h2>Donate these organizations:</h2>
+        <h2>Donate these organizations or people:</h2>
     </div>
   <ul class="moneylist">
       {% for x in money|sort(attribute='id', reverse = True) %}
